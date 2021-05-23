@@ -120,17 +120,39 @@
         }, 1500);
     });
     
-
     
     //===== 
+
+    $('.service-title').on('click', function(event) {
+      event.document.magnificPopup('.service-detail')
+    });
     
     
     
     
     
-    
-    
-    
+/********* Services Modal ***********/
+const modalViews = document.querySelectorAll('.services-detail'),
+modalBtns = document.querySelectorAll('.services__button'),
+modalCloses = document.querySelectorAll('.services__modal-close')
+
+let modal = function(modalClick){
+    modalViews[modalClick].classList.add('active-modal')
+}
+
+modalBtns.forEach((modalBtns, i) => {
+    modalBtns.addEventListener('click', ()=>{
+        modal(i)
+    })
+})
+
+modalCloses.forEach((modalClose) =>{
+    modalClose.addEventListener('click', ()=>{
+        modalViews.forEach((modalView) => {
+            modalView.classList.remove('active-modal')
+        })
+    })
+})
     
     
     
