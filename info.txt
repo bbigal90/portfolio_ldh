@@ -1,0 +1,19 @@
+
+Google Font
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,700&display=swap" rel="stylesheet">
+
+Svg -> png
+    https://svgtopng.com/
+
+아이콘
+    https://fontawesome.com/ 
+
+color picker
+    https://www.google.com/search?q=color+picker&oq=color&aqs=chrome.0.69i59j69i57j0i433l2j0j0i433j69i61j69i60.2025j0j4&sourceid=chrome&ie=UTF-8
+    색상 찾아주기
+
+BEM?
+    Block Element Modifier
+
+
