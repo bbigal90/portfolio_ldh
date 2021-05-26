@@ -1143,8 +1143,10 @@ p {
 */
 
 /* 프로젝트 내용 숨김 처리 */
-.service-detail{
-  display: none;
+.service-detail {
+  opacity: 1;
+  visibility: visible;
+  text-align: left;
 }
 
 /*===========================
