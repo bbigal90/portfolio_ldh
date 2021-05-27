@@ -1144,11 +1144,16 @@ p {
 
 /* 프로젝트 내용 숨김 처리 */
 .service-detail {
-  opacity: 1;
-  visibility: visible;
   text-align: left;
 }
 
+.service-detail-li-1 {
+  text-indent: 1em;
+}
+
+.service-detail-li-2 {
+  text-indent: 2em;
+}
 /*===========================
     4.CALL TO ACTION css 
 ===========================*/
